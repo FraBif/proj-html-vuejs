@@ -115,6 +115,35 @@
       </div>
    </div>
  </section>
+ <section class="my_third_section">
+    <h3 id="brands">
+        Trusted by this amazing brands
+    </h3>
+    <div class="flex my_brand_container">
+        <img src="../assets/imgs/brand-1.jpg" alt="brand-1">
+        <img src="../assets/imgs/brand-3.jpg" alt="brand-2">
+        <img src="../assets/imgs/brand-4.jpg" alt="brand-3">
+        <img src="../assets/imgs/brand-5.jpg" alt="brand-4">
+        <img src="../assets/imgs/brand-7.jpg" alt="brand-5">
+    </div>
+    <div class="my_fifth_box">
+         <div class="my_card_3">
+           <img src="../assets/imgs/icon-2-2x.png" alt="icon-2" class="icon_2">
+           <h1 class="my_title">
+            Professional who works to help with your business.
+           </h1>
+           <p>
+            Donec est tristique eu massa pellentesque non sit sit donec. Proin auctor est vehicula.
+           </p>
+           <button class="button-1">
+            What is VA exactly?
+           </button>
+         </div>
+         <div class="my_card_4">
+            <img src="../assets/imgs/info-8-2x.png" alt="info-5" class="info_5">
+         </div>
+    </div>
+ </section>
 </template>
 
 <script>
@@ -122,6 +151,9 @@
 </script>
 
 <style scoped>
+.flex{
+    display: flex;
+}
 .my_first_section{
     padding: 5rem;
 }
@@ -298,5 +330,49 @@ h3{
 #link{
     color: #f86635;
     text-decoration: underline;
+}
+
+#brands{
+    color: #f86635;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.my_brand_container{
+    padding: 1.5rem;
+}
+
+.my_fifth_box{
+    margin: auto;
+    width: 80%;
+    height: 700px;
+    display: flex;
+}
+
+.my_card_3{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.my_card_4{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icon_2{
+    width: 200px;
+}
+
+.info_5{
+    width: 700px;
 }
 </style>
