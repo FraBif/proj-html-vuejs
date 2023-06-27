@@ -58,6 +58,7 @@
  .my_first_section{
     display: flex;
     align-items: center;
+    background-image: url(../assets/);
  }
 
  .sidebar{
