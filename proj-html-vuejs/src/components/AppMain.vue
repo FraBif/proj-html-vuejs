@@ -55,6 +55,66 @@
        </div>
     </div>
  </section>
+ <section class="my_second_section">
+   <div class="my_third_box">
+    <h3>
+        Donec est tristique eu massa pellentesque.
+    </h3>
+    <h1 class="my_h1">
+        Highly-skilled, independent professional freelancer.
+    </h1>
+    <button type="button" class="button-2">
+        Buy Avada now
+       </button>    
+   </div>
+   <div class="my_fourth_box">
+      <div class="my_card_2">
+        <div class="part_1">
+            <span class="number">
+                1.
+            </span>
+        </div>
+        <div class="part_2">
+            <p class="my_desc">
+                Mauris aliquam libero, fermentum quis eros, massa sagittis. Lectus mattis elit purus venenatis.
+            </p>
+            <p class="my_desc" id="link">
+                Learn more
+            </p>
+        </div>
+      </div>
+      <div class="my_card_2">
+        <div class="part_1">
+            <span class="number">
+                2.
+            </span>
+        </div>
+        <div class="part_2">
+            <p class="my_desc">
+                Mauris aliquam libero, fermentum quis eros, massa sagittis. Lectus mattis elit purus venenatis.
+            </p>
+            <p class="my_desc" id="link">
+                Learn more
+            </p>
+        </div>
+      </div>
+      <div class="my_card_2">
+        <div class="part_1">
+            <span class="number">
+                3.
+            </span>
+        </div>
+        <div class="part_2">
+            <p class="my_desc">
+                Mauris aliquam libero, fermentum quis eros, massa sagittis. Lectus mattis elit purus venenatis.
+            </p>
+            <p class="my_desc" id="link">
+                Learn more
+            </p>
+        </div>
+      </div>
+   </div>
+ </section>
 </template>
 
 <script>
@@ -154,5 +214,89 @@ p{
   display: inline-block;
   font-size: 16px;
   margin-top: 50px;
+}
+
+.my_second_section{
+    width: 100%;
+    height: 1000px;
+    background-color: #0d1267;
+    position: relative;
+}
+
+.my_third_box{
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding: 9rem;
+    position: relative;
+  
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+.my_h1{
+    font-size: 4rem;
+    padding: 5rem;
+
+}
+
+.button-2 {
+  background-color:#f86635; 
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 50px;
+  position: absolute;
+  top: 400px;
+  right: 675px;
+}
+
+.my_fourth_box{
+    width: 100%;
+    height: 40%;
+    background-color: #0d1267;
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+    position:absolute;
+    bottom: 90px;
+}
+
+.my_card_2{
+    width: 30%;
+    height: 95%;
+    background-color: #000545;
+    display: flex;
+    color: white
+}
+
+.part_1{
+    width: 30%;
+    height: 100%;
+    padding: 3rem;
+}
+
+.part_2{
+    width: 70%;
+    height: 100%;
+    padding: 2rem;
+}
+
+.number{
+    font-size: 3.5rem;
+}
+
+.my_desc{
+    font-size: 1.3rem;
+}
+
+#link{
+    color: #f86635;
+    text-decoration: underline;
 }
 </style>
