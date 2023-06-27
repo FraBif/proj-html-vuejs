@@ -2,7 +2,7 @@
   <header>
     <section class="my_first_section">
         
-          <img src="../assets/desktop version img/logo.png" alt="logo">
+          <img src="../assets/imgs/logo.png" alt="logo">
           <HeaderNav/>  
           <div class="sidebar">
             <span>
@@ -58,7 +58,9 @@
  .my_first_section{
     display: flex;
     align-items: center;
-    background-image: url(../assets/);
+    background-image: url(../assets/imgs/header-bg.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
  }
 
  .sidebar{
