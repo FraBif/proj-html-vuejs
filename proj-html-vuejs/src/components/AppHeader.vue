@@ -118,6 +118,7 @@
   padding: 3rem;
   justify-content: space-between;
   position: relative;
+  z-index: 1;
   
 }
 

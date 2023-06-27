@@ -37,6 +37,23 @@
             </p>
         </div>
     </div>
+    <div class="my_second_container">
+       <div class="my_box">
+        <img src="../assets/imgs/info-5-2x.png" alt="info_2" class="my_img_1">
+       </div>
+       <div class="my_box_2">
+       <img src="../assets/imgs/icon-1-2x.png" alt="icon" class="icon_1">
+       <h1 class="my_title">
+        Find the ultimate virtual assistant for your business
+       </h1>
+       <p>
+        Donec est tristique eu massa pellentesque non sit sit donec. Proin auctor est vehicula.
+       </p>
+       <button type="button" class="button-1">
+        What is a VA exactly?
+       </button>
+       </div>
+    </div>
  </section>
 </template>
 
@@ -82,5 +99,60 @@ p{
 
 #borderless{
     border-left: white 1px solid;
+}
+
+.my_second_container{
+    width: 1300px;
+    height: 700px;
+    margin-right: 50px;
+    margin-top: 100px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.my_box{
+    width: calc(100% / 2);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #0d1267;
+    text-align: center;
+    align-items: center;
+}
+
+.my_box_2{
+    width: calc(100% / 2);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #0d1267;
+    text-align: center;
+    align-items: center;
+    padding: 3rem;
+    padding-top: 6rem;
+}
+
+.my_img_1{
+    width: 700px;
+}
+
+.icon_1{
+    width: 200px;
+}
+
+.my_title{
+    margin-top: 3rem;
+    font-size: 3rem;
+}
+
+.button-1 {
+  background-color:#f86635; 
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 50px;
 }
 </style>
