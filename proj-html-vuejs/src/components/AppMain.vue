@@ -78,7 +78,7 @@
             <p class="my_desc">
                 Mauris aliquam libero, fermentum quis eros, massa sagittis. Lectus mattis elit purus venenatis.
             </p>
-            <p class="my_desc" id="link">
+            <p class="my_desc link">
                 Learn more
             </p>
         </div>
@@ -93,7 +93,7 @@
             <p class="my_desc">
                 Mauris aliquam libero, fermentum quis eros, massa sagittis. Lectus mattis elit purus venenatis.
             </p>
-            <p class="my_desc" id="link">
+            <p class="my_desc link">
                 Learn more
             </p>
         </div>
@@ -108,7 +108,7 @@
             <p class="my_desc">
                 Mauris aliquam libero, fermentum quis eros, massa sagittis. Lectus mattis elit purus venenatis.
             </p>
-            <p class="my_desc" id="link">
+            <p class="my_desc link">
                 Learn more
             </p>
         </div>
@@ -142,6 +142,44 @@
          <div class="my_card_4">
             <img src="../assets/imgs/info-8-2x.png" alt="info-5" class="info_5">
          </div>
+    </div>
+    <div class="my_sixth_box">
+        <div class="my_card_5">
+            <div class="part_3">
+               <span class="number">
+                  1.
+               </span>
+            </div>
+            <div class="part_4">
+                 <h3>
+                    Learn to delegate
+                 </h3>
+                 <p>
+                    Mauris aliquam libero, fermentum quis eros, massa sagittis. Lectus mattis elit purus venenatis.
+                 </p>
+                 <span class="link">
+                    Learn more
+                 </span>
+            </div>
+        </div>
+        <div class="my_card_5">
+            <div class="part_3">
+               <span class="number">
+                  2.
+               </span>
+            </div>
+            <div class="part_4">
+                 <h3>
+                    Reduce labor costs
+                 </h3>
+                 <p>
+                    Mauris aliquam libero, fermentum quis eros, massa sagittis. Lectus mattis elit purus venenatis.
+                 </p>
+                 <span class="link">
+                    Learn more
+                 </span>
+            </div>
+        </div>
     </div>
  </section>
 </template>
@@ -327,7 +365,7 @@ h3{
     font-size: 1.3rem;
 }
 
-#link{
+.link{
     color: #f86635;
     text-decoration: underline;
 }
@@ -375,4 +413,38 @@ h3{
 .info_5{
     width: 700px;
 }
+
+.my_sixth_box{
+    width: 90%;
+    height: 400px;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.my_card_5{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    color: white;
+    background-color: #000545;
+}
+
+.part_3{
+    height: 100%;
+    width: 30%;
+    padding: 3rem;
+}
+
+.part_4{
+    height: 100%;
+    width: 70%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+}
+
 </style>
