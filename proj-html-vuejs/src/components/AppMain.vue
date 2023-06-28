@@ -458,4 +458,11 @@ h3{
 .button-2:hover{
     background-color: #0d1267;
 }
+
+#bground{
+    background-image: url(../assets/imgs/box-bg-1.svg);
+    background-size: 800px;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
 </style>
