@@ -145,7 +145,7 @@
     </div>
     <div class="my_sixth_box">
         <div class="my_card_5">
-            <div class="part_3">
+            <div class="part_3" id="bground">
                <span class="number">
                   1.
                </span>
@@ -291,6 +291,10 @@ p{
     height: 1000px;
     background-color: #0d1267;
     position: relative;
+    background-image: url(../assets/imgs/info-bg-3.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 1800px;
 }
 
 .my_third_box{
