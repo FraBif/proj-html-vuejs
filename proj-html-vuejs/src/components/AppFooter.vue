@@ -13,6 +13,20 @@
              Buy Avada now
           </div>
      </div>
+     <div class="my_second_container">
+        <div class="my_first_box">
+            <h1>
+                Independent professional who works remotely to help with your business.
+            </h1>
+            <div class="button-2">
+                What is VA exactly?
+            </div>
+            <p>
+                <i class="fa-regular fa-copyright fa-sm" style="color: #ffffff;"></i> Copyright 2012-2023|Avada Theme by <span class="orange">ThemeFusion</span>|All Rights Reserved|Powered by <span class="orange">WordPress</span>
+            </p>
+        </div>
+        <div class="my_first_box"></div>
+     </div>
   </footer>
 </template>
 
@@ -69,5 +83,41 @@ footer{
   display: inline-block;
   font-size: 16px;
   margin-left: 100px;
+}
+
+.my_second_container{
+    display: flex;
+    width: 93%;
+    height: 300px;
+    margin: auto;
+}
+
+.my_first_box{
+    width: 50%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+} 
+
+h1{
+    font-size: 2.7rem;
+}
+
+.button-2 {
+  background-color:white; 
+  color: #000545;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  align-self: flex-start;
+}
+
+.orange{
+    color: #eb6137;
 }
 </style>
