@@ -292,7 +292,7 @@ p{
     background-color: #0d1267;
     position: relative;
     background-image: url(../assets/imgs/info-bg-3.svg);
-    background-position: bottom;
+    background-position: bottom left;
     background-repeat: no-repeat;
     background-size: 1800px;
 }
