@@ -447,4 +447,11 @@ h3{
     justify-content: space-between;
 }
 
+.button-1:hover{
+    background-color: #0d1267;
+}
+
+.button-2:hover{
+    background-color: #0d1267;
+}
 </style>

@@ -184,4 +184,19 @@ p{
   flex-direction: column;
   justify-content: space-evenly;
 }
+
+span:hover
+{
+    color: coral;
+}
+
+.button-1:hover{
+  background-color:#000545; 
+  color: white;
+}
+
+.button-2:hover{
+  background-color:#000545; 
+  color: white;
+}
 </style>

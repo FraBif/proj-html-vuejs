@@ -120,4 +120,22 @@ h1{
 .orange{
     color: #eb6137;
 }
+
+span:hover{
+    color: #eb6137;
+}
+
+.button-1:hover{
+  background-color:white; 
+  color: #000545;
+}
+
+.button-2:hover{
+  background-color:#000545; 
+  color: white;
+}
+
+.orange:hover{
+    color: white;
+}
 </style>

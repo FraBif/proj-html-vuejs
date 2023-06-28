@@ -68,4 +68,8 @@ ul{
     align-items: center;
     justify-content: space-between;
 }
+
+li:hover{
+    text-decoration: underline;
+}
 </style>
